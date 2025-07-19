@@ -1,0 +1,23 @@
+/* mobile */
+@media screen and (max-width: 576px) {
+    .container{
+        max-width: 95%;
+    }
+    .mobile-menu-bar {
+        display: block;
+    }
+    .menu-bar {
+        display: none;
+    }
+}
+/* Tablet */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .container {
+        max-width: 90%;
+    }
+    .menu-bar ul li a {
+        font-size: 14px;
+        padding: 5px 12px;
+    }
+    
+}

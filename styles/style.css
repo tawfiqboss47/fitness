@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+:root{
+    --primary: #E6533C;
+    --secondary: #000;
+    --white-gray: #ffffff50;
+}
+p{
+    color: var(--white-gray);
+}
+@font-face {
+    font-family: "miama";
+    src: url(../Font/Miama.ttf) format('truetype');
+}
+.container{
+    max-width: 71%;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+/* Navbar SEction */
+header{
+    background-color: #000;
+    height: 600px;    
+}
+.full-banner-section{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+.menubar-section {
+	justify-content: space-between;
+	padding-top: 35px;
+	align-items: center;
+}
+.logo {
+	font-size: 36px;
+	font-weight: 800;
+	font-style: italic;
+    color: var(--primary);
+}
+.menu-bar ul {
+	list-style: none;
+	gap: 20px;
+	border: 1px solid var(--white-gray);
+	padding: 5px;
+	border-radius: 30px;
+}
+.menu-bar ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 30px;
+    transition: 0.3s;
+}
+.menu-bar ul li a:hover{
+    background: var(--primary);
+    font-weight: 500;
+}
+.mobile-menu-bar{
+    display: none;
+}
+.mobile-menu-bar span {
+	color: white;
+	font-size: 22px;
+	cursor: pointer;
+}
