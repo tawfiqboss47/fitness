@@ -25,8 +25,7 @@ p{
 }
 /* Navbar SEction */
 header{
-    background-color: #000;
-    height: 600px;    
+    background-color: #000; 
 }
 .full-banner-section{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
@@ -70,4 +69,99 @@ header{
 	color: white;
 	font-size: 22px;
 	cursor: pointer;
+}
+/* Banner Section */
+.banner-content-wrap{
+    justify-content: space-between;
+}
+.banner-content h1 {
+	font-size: 78px;
+	color: white;
+	/* padding-right: 18%; */
+}
+.banner-content {
+	width: 48%;
+    padding: 100px 0;
+}
+.banner-content h1 strong {
+    font-family: "miama";
+    font-size: 185px;
+    display: inline-block;
+    line-height: 130px;
+    font-weight: 300;
+}
+.banner-content p {
+	margin: 24px 0;
+	font-size: 16px;
+	line-height: 27px;
+}
+/* Btn style */
+.button-banner {
+    gap: 20px;
+}
+.btn-primary {
+    display: inline-block;
+    padding: 15px 30px;
+}
+.btn-primary {
+    display: inline-block;
+    padding: 20px 50px;
+    background: var(--primary);
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+button.btn-primary.btn-outline {
+    border: 1px solid white;
+    background: transparent;
+    padding: 19px 49px;
+}
+/* image side */
+.banner-img{
+    width: 48%;
+    text-align: right;
+    position: relative;
+}
+.banner-img img{
+    height: 100%;
+}
+.video-tutorial {
+    background: rgba(48, 48, 48, 0.536);
+    display: inline-block;
+    padding: 20px 33px;
+    border-radius: 8px;
+    border: 1px solid #4a4a4a;
+    text-align: left;
+}
+.video-tutorial h2 {
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+}
+.circle {
+    width: 40px;
+    height: 40px;
+    background: var(--primary);
+    border-radius: 50%;
+}
+.image-left {
+    position: absolute;
+    bottom: 29%;
+    left: 14%;
+    padding: 20px 25px;
+}
+.image-right {
+    position: absolute;
+    top: 27%;
+    right: -12%;
+}
+.image-right h2 {
+    font-size: 40px;
+}
+.video-tutorial.image-left {
+    display: flex;
+    gap: 13px;
+    align-items: center;
 }
