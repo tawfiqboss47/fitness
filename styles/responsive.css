@@ -9,6 +9,29 @@
     .menu-bar {
         display: none;
     }
+    .banner-content {
+        width: 100%;
+        padding: 60px 0;
+    }
+    .banner-content h1 {
+        font-size: 48px;
+    }
+    .banner-content h1 strong {
+        font-size: 128px;
+    }
+    .banner-img {
+        width: 100%
+    }
+    .banner-content-wrap {
+        flex-direction: column;
+    }
+    .image-right {
+        top: 19%;
+        right: 0%;
+    }
+    .video-tutorial {
+        padding: 20px 21px;
+    }
 }
 /* Tablet */
 @media screen and (min-width: 576px) and (max-width: 992px) {
